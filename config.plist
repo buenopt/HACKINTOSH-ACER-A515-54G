@@ -1245,7 +1245,7 @@
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
-			<false/>
+			<true/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
@@ -1365,7 +1365,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>ps2rst=0 igfxonln=1 igfxagdc=0 keepsyms=1 debug=0x100 -wegnoegpu -igfxblr swd_panic=1</string>
+				<string>-v ps2rst=0 igfxonln=1 igfxagdc=0 keepsyms=1 debug=0x100 -wegnoegpu -igfxblr swd_panic=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
